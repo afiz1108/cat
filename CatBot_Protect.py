@@ -14,31 +14,31 @@ from bs4 import BeautifulSoup
 from gtts import gTTS
 
 cl = LINETCR.LINE()
-cl.login(token='EmHCNHLKXReR3GUduca1.UlrDCGkj7dxSpRrrWVSpKq.g3vEaSk5iGVvPWOhpgRVkHPpLhOOwoso1OQ5i+27Iuw=')
+cl.login(token='EnX74epRMp3Drtdbs4Mc.VO404wWDgdw0n0T3WkC0+a.AI/gidvjsdelp7QEu/9RZNQvVeqyoiBBl0TsQvqOwGY=')
 #cl.login(token='')
 cl.loginResult()
 print "Cl-Login Success\n"
 
 ki = LINETCR.LINE()
-ki.login(token='EmzlLew0XTW8IODPhwRe.7oUShdLcs9TUvO5sMkXNpG.ilwEXwSYByrqIwZgDLnuJ97XA1wVn16Z8shYnSsButY')
+ki.login(token='En8I5rHNAp7gup1g6v41.7S41YiepIyUbpnsN+5O2eq.+aeRMbyGkw7tc8CLPcUdj/MrYf9l1xMTQ8PydHMWnII=')
 #ki.login(token='')
 ki.loginResult()
 print "Ki-Login Success\n"
 
 kk = LINETCR.LINE()
-kk.login(token='EmwVS4A5cErcj6NZ939e.uHwIvq3v1iyKQZqnNrhKFG.vllaB0gxYptn8mEr+F0b1/+TSN46FCfTV5Qtm/fEXig=')
+kk.login(token='En4bes9sKSpP05U6vEF9.J/eMhQwd2iuTfxuz19zSsq.rwJk4qaX+S+2q/ZnGc6qVwdLZfc6WHtOeZUim5LXopw=')
 #kk.login(token='')
 kk.loginResult()
 print "Kk-Login Success\n"
 
 kc = LINETCR.LINE()
-kc.login(token='Em8Uj1MRqCDmBO5XiYu5.T2Obu6kd2POuq9/WqXGtnq.Eaqof4oV8GKOTFkpRESnEuh0odD3CEpkOVmeKezp3N0=')
+kc.login(token='EnZGHZU2FvLdPedDGkc5.vn6uYjWWW0JudBqT33gfDq.DON3mc3cs7i/zGZnO9OeXWOzsW4sGSUJVA45GirOdj4=')
 #kc.login(token='')
 kc.loginResult()
 print "Kc-Login Success\n"
 
 kr = LINETCR.LINE()
-kr.login(token='EmLV5twOWfR6ybWCUO0b.sDTrH/zMSMOdJJyRwe3qQW.eJvaeOQigQYb4ukESxrJdzaTHRe1I9LExmgCz5WfzJ4=')
+kr.login(token='EnWk0KvgfwbS1mMTS79b.bqOFJnJxN4T4QjA6tymdIW.cykCgdX2oWPzO+r35Sl3gvg1NwgR+VouTqnqjJLteps=')
 #kr.login(token='')
 kr.loginResult()
 print "Kr-Login Success\n\n=====[Sukses All Login]====="
@@ -141,8 +141,8 @@ Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 Bots=[mid,Amid,Bmid,Cmid]
-Creator="ub76a0153a283da9a1443dfb043181335"
-admin=["ub76a0153a283da9a1443dfb043181335","ube597dd17603406a6b278bc62cc5fdcf"]
+Creator="u29b7d9118645af64909adba01fe4cb26"
+admin=["u29b7d9118645af64909adba01fe4cb26"]
 
 wait = {
     "LeaveRoom":True,
